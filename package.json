@@ -4,6 +4,7 @@
   "description": "\"Copy a method in AWS API gateway.\"",
   "main": "index.js",
   "preferGlobal": true,
+  "repository": "https://github.com/bustlelabs/api-gateway-copy-method.git",
   "bin": {
     "api-gateway-copy-method": ".dist/index.js"
   },
