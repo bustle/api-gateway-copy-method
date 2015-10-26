@@ -9,8 +9,7 @@
     "api-gateway-copy-method": "./dist/index.js"
   },
   "scripts": {
-    "compile": "babel -d dist/ lib/",
-    "prepublish": "npm run compile"
+    "compile": "babel -d dist/ lib/"
   },
   "author": "Steve Faulkner <southpolesteve@gmail.com>",
   "license": "ISC",
