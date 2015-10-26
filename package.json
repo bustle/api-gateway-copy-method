@@ -6,7 +6,7 @@
   "preferGlobal": true,
   "repository": "https://github.com/bustlelabs/api-gateway-copy-method.git",
   "bin": {
-    "api-gateway-copy-method": ".dist/index.js"
+    "api-gateway-copy-method": "./dist/index.js"
   },
   "scripts": {
     "compile": "babel -d dist/ lib/",
