@@ -1,6 +1,6 @@
 {
   "name": "api-gateway-copy-method",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "\"Copy a method in AWS API gateway.\"",
   "main": "index.js",
   "preferGlobal": true,
@@ -9,7 +9,8 @@
     "api-gateway-copy-method": "./dist/index.js"
   },
   "scripts": {
-    "compile": "babel -d dist/ lib/"
+    "compile": "babel -d dist/ lib/",
+    "prepublish": "npm run compile"
   },
   "author": "Steve Faulkner <southpolesteve@gmail.com>",
   "license": "ISC",
