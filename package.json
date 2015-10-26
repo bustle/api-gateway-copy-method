@@ -1,6 +1,6 @@
 {
   "name": "api-gateway-copy-method",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "\"Copy a method in AWS API gateway.\"",
   "main": "index.js",
   "preferGlobal": true,
@@ -18,9 +18,6 @@
     "aws-sdk": "^2.2.11",
     "aws4": "^1.1.0",
     "bluebird": "^2.10.2",
-    "core-js": "^1.2.3",
-    "es6-promise": "^3.0.2",
-    "lodash": "^3.10.1",
-    "minimist": "^1.2.0"
+    "lodash": "^3.10.1"
   }
 }
